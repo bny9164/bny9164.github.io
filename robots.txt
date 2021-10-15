@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bny9164.github.io/sitemap.xml
