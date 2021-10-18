@@ -9,24 +9,8 @@
 
 
     <url>
-        <loc>https://bny9164.github.io/2020/11/15/2021-10-15-ko-ONVIF/</loc>
-        <lastmod>2021-10-18T04:44:16.833Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/2020/11/17/2021-10-15-ko-RTSP/</loc>
-        <lastmod>2021-10-18T04:44:12.846Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://bny9164.github.io/2020/12/01/2021-10-18-ko-TCPIP/</loc>
-        <lastmod>2021-10-18T04:44:04.502Z</lastmod>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,15 +18,7 @@
 
     <url>
         <loc>https://bny9164.github.io/2020/12/11/2021-10-18-ko-socket/</loc>
-        <lastmod>2021-10-18T04:43:57.994Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/2020/12/13/2021-10-18-jp-socket/</loc>
-        <lastmod>2021-10-18T04:43:27.153Z</lastmod>
+        <lastmod>2021-10-18T08:17:57.057Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -50,7 +26,15 @@
 
     <url>
         <loc>https://bny9164.github.io/2020/12/07/2021-10-18-jp-TCPIP/</loc>
-        <lastmod>2021-10-18T04:43:14.626Z</lastmod>
+        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/2020/12/13/2021-10-18-jp-socket/</loc>
+        <lastmod>2021-10-18T08:17:48.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -58,23 +42,7 @@
 
     <url>
         <loc>https://bny9164.github.io/2020/11/18/2021-10-17-jp-SEO/</loc>
-        <lastmod>2021-10-17T01:31:24.037Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/2020/11/18/2021-10-15-ko-SEO/</loc>
-        <lastmod>2021-10-16T01:36:20.047Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/2020/11/15/2021-10-16-jp-ONVIF/</loc>
-        <lastmod>2021-10-16T00:54:02.324Z</lastmod>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -82,7 +50,39 @@
 
     <url>
         <loc>https://bny9164.github.io/2020/11/20/2021-10-16-jp-RTSP/</loc>
-        <lastmod>2021-10-16T00:49:16.303Z</lastmod>
+        <lastmod>2021-10-18T08:17:38.952Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/2020/11/15/2021-10-16-jp-ONVIF/</loc>
+        <lastmod>2021-10-18T08:17:33.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/2020/11/18/2021-10-15-ko-SEO/</loc>
+        <lastmod>2021-10-18T08:17:27.989Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/2020/11/17/2021-10-15-ko-RTSP/</loc>
+        <lastmod>2021-10-18T08:17:21.891Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/2020/11/15/2021-10-15-ko-ONVIF/</loc>
+        <lastmod>2021-10-18T08:17:08.406Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
