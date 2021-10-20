@@ -9,6 +9,27 @@
 
 
     <url>
+        <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/%25E5%25AD%25A6%25E7%25BF%2592/nodejs/</loc>
+        <lastmod>2021-10-19T01:54:23.405Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/%25E5%25AD%25A6%25E7%25BF%2592/</loc>
+        <lastmod>2021-10-19T01:54:23.405Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/</loc>
+        <lastmod>2021-10-19T01:54:23.405Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://bny9164.github.io/categories/%25ED%2595%259C%25EA%25B5%25AD%25EC%2596%25B4/%25ED%2595%2599%25EC%258A%25B5/nodejs/</loc>
         <lastmod>2021-10-19T00:21:04.957Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,20 +59,6 @@
 
     <url>
         <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/%25E5%25AD%25A6%25E7%25BF%2592/%25E6%258A%2580%25E8%25A1%2593%25E7%2594%25A8%25E8%25AA%259E/</loc>
-        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/%25E5%25AD%25A6%25E7%25BF%2592/</loc>
-        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://bny9164.github.io/categories/%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E/</loc>
         <lastmod>2021-10-18T08:17:52.633Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

@@ -51,6 +51,44 @@
     </item>
     
     <item>
+      <title>NVMを活用したノード.jsバージョン管理</title>
+      <link>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/</link>
+      <guid>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/</guid>
+      <pubDate>Mon, 18 Oct 2021 06:58:51 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;様々なプロジェクトを管理しながら、複数のノードバージョンを使わなければならない状況になります。 私の場合も、ブログ管理の場合は 12.x バージョン、プロジェクトの場合は 14.x バージョンを使います。 プロジェクトを変更するたびに該当する特定ノードバージョンをインストー</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>様々なプロジェクトを管理しながら、複数のノードバージョンを使わなければならない状況になります。 私の場合も、ブログ管理の場合は 12.x バージョン、プロジェクトの場合は 14.x バージョンを使います。 プロジェクトを変更するたびに該当する特定ノードバージョンをインストールするのは非常に非効率的な方法であるため、効率的にノードバージョンを管理する必要があります。 このような問題を解決するために出てきたのが、<a href="https://github.com/nvm-sh" title="" target="">NVM</a>[Node Version Manager]です。</p><p>NVM は、様々なバージョンのノードをインストール·管理でき、自分のバージョンを選択できます。</p><h2 id="1-NVM-をインストールする"><a href="#1-NVM-をインストールする" class="headerlink" title="1. NVM をインストールする"></a>1. NVM をインストールする</h2><br><p>nvm は、<a href="%E3%81%93%E3%81%93%E3%81%A7https://github.com/coreybutler/nvm-windows" title="" target=""></a>設置することができます。<br>上のページに移動すると、NVM の説明とダウンロードできるファイルが出てきますが、下のファイルをダウンロードすればいいです。<br><img src="/images/post/2021-10-18/nvm1.jpg"></p><br><p>圧縮を解除すると<code>nvm-setup.exe</code>というファイルが出てきますので、このファイルを設置すれば OK です。<br>圧縮を解除した後、以下のコマンドを入力すると、インストールされた nvm バージョンが分かります。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm version</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm2.png"></p><h2 id="2-ノードバージョン確認"><a href="#2-ノードバージョン確認" class="headerlink" title="2. ノードバージョン確認"></a>2. ノードバージョン確認</h2><br><p>以下のコマンドで、現在インストールされているノードのバージョンを確認できます。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm ls //nvm list</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm3.png"></p><p>現在、私は 2 つのノードバージョンがインストールされており、*マークは<strong>使われているノードのバージョン</strong>を示します。</p><h2 id="3-特定ノードバージョンのインストール"><a href="#3-特定ノードバージョンのインストール" class="headerlink" title="3. 特定ノードバージョンのインストール"></a>3. 特定ノードバージョンのインストール</h2><br><p>以下のコマンドで特定ノードバージョンをインストールできます。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install v15.11.0 //インストールするバージョン入力</span><br></pre></td></tr></table></figure><h2 id="4-特定ノードバージョンを有効にする"><a href="#4-特定ノードバージョンを有効にする" class="headerlink" title="4. 特定ノードバージョンを有効にする"></a>4. 特定ノードバージョンを有効にする</h2><br><p>ノードのバージョン有効化は以下のコマンドで行えます。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use 15.11.0 //使用するバージョン入力</span><br></pre></td></tr></table></figure><br><p>「nvm use バージョン」を入力すると、以下の画像のように*表示が現在使用されているノードバージョンに変更されます。</p><br><p><img src="/images/post/2021-10-18/nvm4.png"></p><br><p>※ Window 環境では「nvmuse」コマンドを入力するときに「access deined」というメッセージが表示されますが、権限がないために表示されるメッセージです。<br><img src="/images/post/2021-10-18/nvm5.png"></p><p>CMD や bash を実行する際に管理者の権限で実行し、変更してください。</p><br>]]></content:encoded>
+      
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/">日本語</category>
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E5%AD%A6%E7%BF%92/">学習</category>
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E5%AD%A6%E7%BF%92/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://bny9164.github.io/tags/NODE/">NODE</category>
+      
+      <category domain="https://bny9164.github.io/tags/NODEJS/">NODEJS</category>
+      
+      <category domain="https://bny9164.github.io/tags/NVM/">NVM</category>
+      
+      <category domain="https://bny9164.github.io/tags/NODEJS-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/">NODEJS バージョン管理</category>
+      
+      <category domain="https://bny9164.github.io/tags/NVM-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/">NVM バージョン管理</category>
+      
+      
+      <comments>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Http通信とSocket通信の違い</title>
       <link>https://bny9164.github.io/2020/12/13/2021-10-18-jp-socket/</link>
       <guid>https://bny9164.github.io/2020/12/13/2021-10-18-jp-socket/</guid>
