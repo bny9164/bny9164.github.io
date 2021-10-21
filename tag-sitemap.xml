@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <url>
+        <loc>https://bny9164.github.io/tags/%EC%95%84%EB%A7%88%EC%A1%B4-aws/</loc>
+        <lastmod>2021-10-21T07:41:01.810Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/amazon-aws/</loc>
+        <lastmod>2021-10-21T07:41:01.810Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/AWS/</loc>
+        <lastmod>2021-10-21T07:41:01.810Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NVM-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/</loc>
+        <lastmod>2021-10-20T00:21:38.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NODEJS-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/</loc>
+        <lastmod>2021-10-20T00:21:38.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NVM/</loc>
+        <lastmod>2021-10-20T00:21:38.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NODEJS/</loc>
+        <lastmod>2021-10-20T00:21:38.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NODE/</loc>
+        <lastmod>2021-10-20T00:21:38.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NVM-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/</loc>
+        <lastmod>2021-10-19T00:21:04.957Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/NODEJS-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/</loc>
+        <lastmod>2021-10-19T00:21:04.957Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/IP-%EB%9C%BB/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/IP-%EA%B0%9C%EB%85%90/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP-%EB%9C%BB/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP-%EA%B0%9C%EB%85%90/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP-IP/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/IP/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP/</loc>
+        <lastmod>2021-10-18T08:18:00.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/http-%ED%86%B5%EC%8B%A0%EA%B3%BC-socket-%ED%86%B5%EC%8B%A0%EC%9D%98-%EC%B0%A8%EC%9D%B4/</loc>
+        <lastmod>2021-10-18T08:17:57.057Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/socket-%ED%86%B5%EC%8B%A0/</loc>
+        <lastmod>2021-10-18T08:17:57.057Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/http-%ED%86%B5%EC%8B%A0/</loc>
+        <lastmod>2021-10-18T08:17:57.057Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/IP-%E6%84%8F%E5%91%B3/</loc>
+        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/IP-%E6%A6%82%E5%BF%B5/</loc>
+        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP-%E6%84%8F%E5%91%B3/</loc>
+        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/TCP-%E6%A6%82%E5%BF%B5/</loc>
+        <lastmod>2021-10-18T08:17:52.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/http-%E9%80%9A%E4%BF%A1-socket-%E9%80%9A%E4%BF%A1%E3%81%AE%E9%81%95%E3%81%84/</loc>
+        <lastmod>2021-10-18T08:17:48.302Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/socket-%E9%80%9A%E4%BF%A1/</loc>
+        <lastmod>2021-10-18T08:17:48.302Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/http-%E9%80%9A%E4%BF%A1/</loc>
+        <lastmod>2021-10-18T08:17:48.302Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/hexo%E6%A4%9C%E7%B4%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E6%9C%80%E9%81%A9%E5%8C%96/</loc>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/%E6%A4%9C%E7%B4%A2%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E6%9C%80%E9%81%A9%E5%8C%96/</loc>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/hexo/</loc>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/SEO/</loc>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/seo/</loc>
+        <lastmod>2021-10-18T08:17:43.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/protocol-%E6%A6%82%E5%BF%B5/</loc>
+        <lastmod>2021-10-18T08:17:38.952Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/streaming/</loc>
+        <lastmod>2021-10-18T08:17:38.952Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/realtime/</loc>
+        <lastmod>2021-10-18T08:17:38.952Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/RTSP/</loc>
+        <lastmod>2021-10-18T08:17:38.952Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/ONVIF-%E6%84%8F%E5%91%B3/</loc>
+        <lastmod>2021-10-18T08:17:33.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/ONVIF-%E6%A6%82%E5%BF%B5/</loc>
+        <lastmod>2021-10-18T08:17:33.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/RTP/</loc>
+        <lastmod>2021-10-18T08:17:33.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/ONVIF/</loc>
+        <lastmod>2021-10-18T08:17:33.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/hexo-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94/</loc>
+        <lastmod>2021-10-18T08:17:27.989Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94/</loc>
+        <lastmod>2021-10-18T08:17:27.989Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/protocol-%EA%B0%9C%EB%85%90/</loc>
+        <lastmod>2021-10-18T08:17:21.891Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/ONVIF-%EB%9C%BB/</loc>
+        <lastmod>2021-10-18T08:17:08.406Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/ONVIF-%EA%B0%9C%EB%85%90/</loc>
+        <lastmod>2021-10-18T08:17:08.406Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
