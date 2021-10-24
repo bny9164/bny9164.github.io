@@ -9,8 +9,47 @@
     <atom:link href="https://bny9164.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 21 Oct 2021 07:41:01 GMT</pubDate>
+    <pubDate>Sun, 24 Oct 2021 07:54:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>AWSとは?</title>
+      <link>https://bny9164.github.io/2021/10/24/2021-10-19-jp-AWS/</link>
+      <guid>https://bny9164.github.io/2021/10/24/2021-10-19-jp-AWS/</guid>
+      <pubDate>Sun, 24 Oct 2021 07:54:42 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;/images/post/2021-10-19/aws.png&quot; alt=&quot;SEO&quot;&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アマゾンドットコムが開発したクラウドコンピューティングプラットフォームである。&lt;/li&gt;
+&lt;li&gt;AmazonWebServic</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><img src="/images/post/2021-10-19/aws.png" alt="SEO"></p><br><ul><li>アマゾンドットコムが開発したクラウドコンピューティングプラットフォームである。</li><li>AmazonWebServicesはアマゾンで提供するクラウドサービスで、ネットワーキングをベースに仮想コンピュータやストレージ、ネットワークインフラなど様々なサービスを提供している。</li><li>ビジネスと開発者がウェブサービスを使用し、拡張可能で精巧なアプリケーションを構築できるようサポートしてくれる。</li><li>現在、小規模法人(会社)及び個人を含む様々なユーザーが使用しており、クラウドコンピューティングの長所を利用するために、多くの巨大企業でも活用している。</li></ul><br><h2 id="AWS-の概要"><a href="#AWS-の概要" class="headerlink" title="AWS の概要"></a>AWS の概要</h2><br><p>クラウドコンピューティングは、あらゆる産業においてビジネスにおいて不可欠なものとなっている。 AWSは最も人気のある形態だ。 効率性を改善し、多様なビジネス慣習を緩和した。2000 年代には、企業が購入したサーバーに依存し、これらのサーバーは機能が制限的で価格が高かった。 しかも、動作するサーバーには数多くの検証が必要だった。 企業が成長すればするほどサーバや最適化がより多く必要になるが、それらを毎回管理することは非効率であり、時には莫大にコストがかかることもあった。 AWS の利点は、このような多くの問題を解決した。 AWS を使用する企業はサーバーを直ちに使用することができ、AWS は様々なワークロード、ストレージオプション、セキュリティが向上した手段を提供する。</p><br><h2 id="AWSの歴史"><a href="#AWSの歴史" class="headerlink" title="AWSの歴史"></a>AWSの歴史</h2><p>AWSは2002年に設立された。その会社はサービスや顧客への提供以外のインフラが売れることを望んだ.</p><p>そのアイデアへの情熱を受け、アマゾンは2006年、最初のAWS商品を発売した。4年後、2012年にアマゾンドットコムは大きなイベントAWSについて、そして顧客の意見収集に集中するイベントを開催した。アマゾンは、AWSに対するフィードバックを共有するReinventのようなイベントを受け入れた。<br>2015年にアマゾンはAWS収益は78億円に達したと発表した。そして2016年の間に、AWSは顧客がAWSサービスマイグレーションするよう手伝ってくれた動きが始まりであった。 その動きはAWSの特長に対する大衆の認識が高まり、経済成長を牽引した。 アマゾンの収益は122億円で、2016年より伸びた。 AWS顧客に160個の製品とサービスを提供している。 アマゾンがAWSをベースに操作する割合を考えると、その数は増加するだろう。</p><br><h2 id="AWSは"><a href="#AWSは" class="headerlink" title="AWSは?"></a>AWSは?</h2><p>何がAWSなのかについて尋ねる前に、まずクラウドプロバイダであることを理解しなければならない。他の機能のうち<code>クラウドプロバイダ</code>は、より多くのストレージ柔軟性を付与し、セキュリティ措置を強化する。また、強化されたセキュリティ、より高いコンピューティング容量、データベース構築のようなローカルデータベースで見られる機能も提供する。 位置によってコンテンツキャッシングのような異なる機能が使うことができる。</p><p>AWSのメリットの一つは、全ての160個のクラウドサービスを使用しだだけ有料で提供することだ。 すなわち、使用するサービスに対してのみ料金を支払うことである。 少なく使えば使うほど値段も少なくなるということを意味する. 使う量が多い場合は使えば使うほど，単位当たりより少ない金額を支払う。</p><p>AWSと関係があるアプリケーションは下のような長所があります。</p><br><ul><li>アプリケーションは安全で安定的なインフラで実行されるため、安定的-オンデマンドインフラを通じて拡張性を向上-クラウドで使用できる設計オプションを通じて柔軟性を向上</li></ul><br><h2 id="AWS-サービス"><a href="#AWS-サービス" class="headerlink" title="AWS サービス"></a>AWS サービス</h2><p>Amazon Web Servicesは設立以来、必要不可欠なクラウドコンピューティング技術となりました。 次はAWSの主なサービスです。</p><br><ol><li>Amazon S3</li></ol><ul><li>このツールはインターネットバックアップに使用され、オブジェクトストレージ範囲内で最も安価なストレージオプションです。 最も良い点は必要な時にほぼ全ての場所で保存されたデータを検索できるということです。</li></ul><ol start="2"><li>AWS データ伝送サービス</li></ol><ul><li>名前からも分かるようにデータを円滑に収集するのに役に立つマイグレーション、データ収集やデータ転送製品があります。 また、データをリアルタイムでモニタリングして分析することができます。</li></ul><ol start="3"><li>Amazon EC2(Elastic Compute Cloud)</li></ol><ul><li>必要に応じて安全でサイズが調整できるコンピューティング容量を提供します。 このサービスは、ウェブスケールクラウドコンピューティングにより容易にアクセスできるように設計されています。</li></ul><ol start="4"><li>Amazon SNS(単純通知サービス)</li></ol><ul><li>EメールやSMSを通じて多数の加入者にメッセージを送信する通知ツールであり、重要な情報に注意を喚起するための警報、サービス通知およびその他のメッセージを送信することができます。</li></ul><ol start="5"><li>Amazon KMS(キー管理システム)</li></ol><ul><li>この道具は、データに256ビット暗号化を使用するセキュリティツールです。それはまたハッカーやサイバー攻撃から保護します。</li></ul><ol start="6"><li>Amazon Lambda</li></ol><ul><li>このサービスは特定のイベントによってコードを実行し、従属リソースを管理します。 サーバの管理やプロビジョニングする必要がなく、コード実行にかかる時間によって支払コストが異なります。 時間当たり料金を請求するサービスに比べて費用が節約されます。</li></ul><ol start="7"><li>Route 53</li></ol><ul><li>このサービスは別途のDNSアカウントを維持、管理する必要がないクラウドのDNSサービスです。 この製品は、ユーザーをインターネットアプリケーションにルーティングできる安定的でコストが効率的な方法を企業に提供するために設計されました。</li></ul><br><blockquote><footer><strong>参考 :</strong><cite><a href="https://goddaehee.tistory.com/174">goddaehee.tistory.com/174</a></cite></footer></blockquote><blockquote><footer><strong>参考 :</strong><cite><a href="https://www.simplilearn.com/tutorials/aws-tutorial/what-is-aws">www.simplilearn.com/tutorials/aws-tutorial/what-is-aws</a></cite></footer></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/">日本語</category>
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E5%AD%A6%E7%BF%92/">学習</category>
+      
+      <category domain="https://bny9164.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E5%AD%A6%E7%BF%92/%E6%8A%80%E8%A1%93%E7%94%A8%E8%AA%9E/">技術用語</category>
+      
+      
+      <category domain="https://bny9164.github.io/tags/AWS/">AWS</category>
+      
+      <category domain="https://bny9164.github.io/tags/amazon-aws/">amazon aws</category>
+      
+      <category domain="https://bny9164.github.io/tags/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3-aws/">アマゾン aws</category>
+      
+      
+      <comments>https://bny9164.github.io/2021/10/24/2021-10-19-jp-AWS/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>AWS란?</title>

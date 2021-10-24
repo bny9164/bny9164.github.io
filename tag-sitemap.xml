@@ -3,21 +3,28 @@
 
 
     <url>
-        <loc>https://bny9164.github.io/tags/%EC%95%84%EB%A7%88%EC%A1%B4-aws/</loc>
-        <lastmod>2021-10-21T07:41:01.810Z</lastmod>
+        <loc>https://bny9164.github.io/tags/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3-aws/</loc>
+        <lastmod>2021-10-24T07:54:42.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://bny9164.github.io/tags/amazon-aws/</loc>
-        <lastmod>2021-10-21T07:41:01.810Z</lastmod>
+        <lastmod>2021-10-24T07:54:42.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://bny9164.github.io/tags/AWS/</loc>
+        <lastmod>2021-10-24T07:54:42.677Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://bny9164.github.io/tags/%EC%95%84%EB%A7%88%EC%A1%B4-aws/</loc>
         <lastmod>2021-10-21T07:41:01.810Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
