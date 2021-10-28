@@ -91,44 +91,6 @@
     </item>
     
     <item>
-      <title>NVM을 활용한 node.js 버전 관리</title>
-      <link>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/</link>
-      <guid>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/</guid>
-      <pubDate>Mon, 18 Oct 2021 06:58:51 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;여러 프로젝트를 관리하면서 여러 노드 버전을 사용해야 될 상황이 오게 됩니다. 저 같은 경우도 블로그를 관리 할 땐 12.x 버전을 사용하고 프로젝트를 진행할 때는 14.x 버전을 사용합니다. 프로젝트를 변경할 때마다 해당하는 특정 노드 버전을 </description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>여러 프로젝트를 관리하면서 여러 노드 버전을 사용해야 될 상황이 오게 됩니다. 저 같은 경우도 블로그를 관리 할 땐 12.x 버전을 사용하고 프로젝트를 진행할 때는 14.x 버전을 사용합니다. 프로젝트를 변경할 때마다 해당하는 특정 노드 버전을 설치해주는 것은 굉장히 비효율적인 방법이기 때문에 효율적으로 노드 버전을 관리해야 합니다. 이런 문제를 해결하기 위해 나온 것이 <a href="https://github.com/nvm-sh/nvm" title="" target="">NVM</a>[Node Version Manager] 입니다.</p><p>NVM은 다양한 버전의 노드를 설치, 관리할 수 있고 자신의 원하는 버전을 선택할 수 있습니다.</p><h2 id="1-NVM-설치하기"><a href="#1-NVM-설치하기" class="headerlink" title="1. NVM 설치하기"></a>1. NVM 설치하기</h2><br><p>nvm은 <a href="https://github.com/coreybutler/nvm-windows/releases" title="" target="">여기서</a> 설치할 수 있습니다.<br>위 페이지로 이동하게 되면 NVM의 설명과 다운로드 할 수 있는 파일들이 나오는데 아래의 파일을 다운로드하면 됩니다.<br><img src="/images/post/2021-10-18/nvm1.jpg"></p><br><p>압축을 풀면 <code>nvm-setup.exe</code> 파일이 나오는데 이 파일을 설치해주시면 됩니다.<br>압축을 푼 후 아래의 명령어를 입력하시면 설치된 nvm 버전을 알 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm version</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm2.png"></p><h2 id="2-노드-버전-확인"><a href="#2-노드-버전-확인" class="headerlink" title="2. 노드 버전 확인"></a>2. 노드 버전 확인</h2><br><p>아래의 명령어로 현재 설치되어 있는 노드의 버전을 확인 할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm ls //nvm list</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm3.png"></p><p>현재 저는 2개의 노드 버전이 설치되어 있고 * 표시는 <strong>사용되고 있는 노드의 버전</strong>을 나타냅니다.</p><h2 id="3-특정-노드-버전-설치"><a href="#3-특정-노드-버전-설치" class="headerlink" title="3. 특정 노드 버전 설치"></a>3. 특정 노드 버전 설치</h2><br><p>아래의 명령어로 특정 노드 버전을 설치할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install v15.11.0 //설치할 버전 입력</span><br></pre></td></tr></table></figure><h2 id="4-특정-노드-버전-활성화-시키기"><a href="#4-특정-노드-버전-활성화-시키기" class="headerlink" title="4. 특정 노드 버전 활성화 시키기"></a>4. 특정 노드 버전 활성화 시키기</h2><br><p>노드의 버전 활성화는 아래의 명령어로 할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use 15.11.0 //사용할 버전 입력</span><br></pre></td></tr></table></figure><br><p><code>nvm use 버전</code>을 입력하면 아래의 이미지와 같이 * 표시가 현재 사용되고 있는 노드버전으로 변경됩니다.</p><br><p><img src="/images/post/2021-10-18/nvm4.png"></p><br><p>※ window 환경에서는 <code>nvm use</code> 커맨드를 입력할 때 <code>access deined</code>라는 메세지가 나올 수 있는데 권한이 없어서 나오는 메세지 입니다.<br><img src="/images/post/2021-10-18/nvm5.png"></p><p>CMD나 bash을 실행할 때 관리자 권한으로 실행해주시고 변경하면 됩니다.</p><br>]]></content:encoded>
-      
-      
-      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/">한국어</category>
-      
-      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/">학습</category>
-      
-      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/nodejs/">nodejs</category>
-      
-      
-      <category domain="https://bny9164.github.io/tags/NODE/">NODE</category>
-      
-      <category domain="https://bny9164.github.io/tags/NODEJS/">NODEJS</category>
-      
-      <category domain="https://bny9164.github.io/tags/NVM/">NVM</category>
-      
-      <category domain="https://bny9164.github.io/tags/NODEJS-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/">NODEJS 버전관리</category>
-      
-      <category domain="https://bny9164.github.io/tags/NVM-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/">NVM 버전관리</category>
-      
-      
-      <comments>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>NVMを活用したNode.jsバージョン管理</title>
       <link>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/</link>
       <guid>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/</guid>
@@ -163,6 +125,44 @@
       
       
       <comments>https://bny9164.github.io/2021/10/18/2021-10-18-jp-NVM/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>NVM을 활용한 node.js 버전 관리</title>
+      <link>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/</link>
+      <guid>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/</guid>
+      <pubDate>Mon, 18 Oct 2021 06:58:51 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;여러 프로젝트를 관리하면서 여러 노드 버전을 사용해야 될 상황이 오게 됩니다. 저 같은 경우도 블로그를 관리 할 땐 12.x 버전을 사용하고 프로젝트를 진행할 때는 14.x 버전을 사용합니다. 프로젝트를 변경할 때마다 해당하는 특정 노드 버전을 </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>여러 프로젝트를 관리하면서 여러 노드 버전을 사용해야 될 상황이 오게 됩니다. 저 같은 경우도 블로그를 관리 할 땐 12.x 버전을 사용하고 프로젝트를 진행할 때는 14.x 버전을 사용합니다. 프로젝트를 변경할 때마다 해당하는 특정 노드 버전을 설치해주는 것은 굉장히 비효율적인 방법이기 때문에 효율적으로 노드 버전을 관리해야 합니다. 이런 문제를 해결하기 위해 나온 것이 <a href="https://github.com/nvm-sh/nvm" title="" target="">NVM</a>[Node Version Manager] 입니다.</p><p>NVM은 다양한 버전의 노드를 설치, 관리할 수 있고 자신의 원하는 버전을 선택할 수 있습니다.</p><h2 id="1-NVM-설치하기"><a href="#1-NVM-설치하기" class="headerlink" title="1. NVM 설치하기"></a>1. NVM 설치하기</h2><br><p>nvm은 <a href="https://github.com/coreybutler/nvm-windows/releases" title="" target="">여기서</a> 설치할 수 있습니다.<br>위 페이지로 이동하게 되면 NVM의 설명과 다운로드 할 수 있는 파일들이 나오는데 아래의 파일을 다운로드하면 됩니다.<br><img src="/images/post/2021-10-18/nvm1.jpg"></p><br><p>압축을 풀면 <code>nvm-setup.exe</code> 파일이 나오는데 이 파일을 설치해주시면 됩니다.<br>압축을 푼 후 아래의 명령어를 입력하시면 설치된 nvm 버전을 알 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm version</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm2.png"></p><h2 id="2-노드-버전-확인"><a href="#2-노드-버전-확인" class="headerlink" title="2. 노드 버전 확인"></a>2. 노드 버전 확인</h2><br><p>아래의 명령어로 현재 설치되어 있는 노드의 버전을 확인 할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm ls //nvm list</span><br></pre></td></tr></table></figure><br><p><img src="/images/post/2021-10-18/nvm3.png"></p><p>현재 저는 2개의 노드 버전이 설치되어 있고 * 표시는 <strong>사용되고 있는 노드의 버전</strong>을 나타냅니다.</p><h2 id="3-특정-노드-버전-설치"><a href="#3-특정-노드-버전-설치" class="headerlink" title="3. 특정 노드 버전 설치"></a>3. 특정 노드 버전 설치</h2><br><p>아래의 명령어로 특정 노드 버전을 설치할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install v15.11.0 //설치할 버전 입력</span><br></pre></td></tr></table></figure><h2 id="4-특정-노드-버전-활성화-시키기"><a href="#4-특정-노드-버전-활성화-시키기" class="headerlink" title="4. 특정 노드 버전 활성화 시키기"></a>4. 특정 노드 버전 활성화 시키기</h2><br><p>노드의 버전 활성화는 아래의 명령어로 할 수 있습니다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use 15.11.0 //사용할 버전 입력</span><br></pre></td></tr></table></figure><br><p><code>nvm use 버전</code>을 입력하면 아래의 이미지와 같이 * 표시가 현재 사용되고 있는 노드버전으로 변경됩니다.</p><br><p><img src="/images/post/2021-10-18/nvm4.png"></p><br><p>※ window 환경에서는 <code>nvm use</code> 커맨드를 입력할 때 <code>access deined</code>라는 메세지가 나올 수 있는데 권한이 없어서 나오는 메세지 입니다.<br><img src="/images/post/2021-10-18/nvm5.png"></p><p>CMD나 bash을 실행할 때 관리자 권한으로 실행해주시고 변경하면 됩니다.</p><br>]]></content:encoded>
+      
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/">한국어</category>
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/">학습</category>
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/nodejs/">nodejs</category>
+      
+      
+      <category domain="https://bny9164.github.io/tags/NODE/">NODE</category>
+      
+      <category domain="https://bny9164.github.io/tags/NODEJS/">NODEJS</category>
+      
+      <category domain="https://bny9164.github.io/tags/NVM/">NVM</category>
+      
+      <category domain="https://bny9164.github.io/tags/NODEJS-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/">NODEJS 버전관리</category>
+      
+      <category domain="https://bny9164.github.io/tags/NVM-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/">NVM 버전관리</category>
+      
+      
+      <comments>https://bny9164.github.io/2021/10/18/2021-10-18-ko-NVM/#disqus_thread</comments>
       
     </item>
     
