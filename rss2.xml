@@ -9,8 +9,48 @@
     <atom:link href="https://bny9164.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 24 Oct 2021 07:54:42 GMT</pubDate>
+    <pubDate>Thu, 28 Oct 2021 01:12:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Invalid bound statement (not found) 에러 처리</title>
+      <link>https://bny9164.github.io/2021/10/28/2021-10-20-ko-invalid-bound-statement/</link>
+      <guid>https://bny9164.github.io/2021/10/28/2021-10-20-ko-invalid-bound-statement/</guid>
+      <pubDate>Thu, 28 Oct 2021 01:12:37 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;img src=&quot;/images/post/2021-10-20/invalidbound1.jpg&quot;&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;현재 프로젝트의 경로는 위와 같다.&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/2021-10-20/inv</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><img src="/images/post/2021-10-20/invalidbound1.jpg"></p><br><p>현재 프로젝트의 경로는 위와 같다.</p><br><p><img src="/images/post/2021-10-20/invalidbound2.jpg"></p><br><p>기존의 내 코드는 이렇게 되어 있었다.<br>설정파일들을 아무리 수정해봐도, 자료를 찾아봐도 에러가 해결되지 않았다.<br>발생한 에러는 아래와 같다.</p><br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):</span><br><span class="line">com.bny.dao.UserDao.getUser at</span><br><span class="line">org.apache.ibatis.binding.MapperMethod$SqlCommand.<span class="tag">&lt;<span class="name">init</span>&gt;</span>(MapperMethod.java:235) at org.apache.ibatis.binding.MapperMethod.<span class="tag">&lt;<span class="name">init</span>&gt;</span>(MapperMethod.java:53) at</span><br><span class="line">    org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)</span><br><span class="line">    at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source) at</span><br><span class="line">    org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)</span><br><span class="line">    at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)<span class="tag">&lt;/<span class="name">init</span>&gt;</span><span class="tag">&lt;/<span class="name">init</span>&gt;</span></span><br></pre></td></tr></table></figure><br><p>이 에러로 장작 4시간을 싸우고 있었던 것 같다.<br>온갖 방법들을 써가며 안되겠지 안되겠지 하는 찰나에…</p><br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">정보: Mapped URL path [/fonts/**] onto handler &#x27;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1&#x27; 4월 09, 2019 6:02:20 오후 </span><br><span class="line">    org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler</span><br><span class="line">정보: Mapped URL path [/images/**] onto handler &#x27;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2&#x27; 4월 09, 2019 6:02:20 오후</span><br><span class="line">    org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler</span><br><span class="line">정보: Mapped URL path [/js/**] onto handler &#x27;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3&#x27; 4월 09, 2019 6:02:20 오후</span><br><span class="line">    org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler</span><br><span class="line">정보: Mapped URL path [/sass/**] onto handler &#x27;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4&#x27; 4월 09, 2019 6:02:20 오후</span><br><span class="line">    org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler</span><br><span class="line">정보: Mapped URL path [/publishing/**] onto handler &#x27;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5&#x27;testQuery xxxx@naver.com 20 4월 09, 2019 6:02:20 오후</span><br><span class="line">    org.springframework.context.support.GenericApplicationContext doClose </span><br><span class="line">정보: Closing org.springframework.context.support.GenericApplicationContext@1081592: startup date [Tue Apr 09 18:02:19 KST 2019]; root of context hierarchy</span><br></pre></td></tr></table></figure><br><p>성공적인 결과값</p><p>원인은 <code>nameSpace에</code> 있었다.</p><p>현재 <code>UserDaoImpl.java</code> 파일이 com.bny.dao 패키지에 있었는데 나는 <code>mapper.xml</code> 파일의 namespace와 java파일의 namespace가 일치만 하면 되는 줄 알았다. 하지만 namespace의 경로도 현재 java파일의 경로와 일치시켜야 제대로 작동되었다.</p><br><p><img src="/images/post/2021-10-20/invalidbound3.jpg"></p><br><p>패키지 까지만 작성한 경우에는 그 패키지 내에 <code>파일이 한개만 있을 경우 자동 맵핑</code>이 되지만 두개 이상 있을 경우 파일명까지 namespace에 적어줘야 맵핑을 시키기 때문에 해당 <code>파일의 경로와 명까지 정확하게 작성</code>해야 정상적으로 작동이 된다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/">한국어</category>
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/">학습</category>
+      
+      <category domain="https://bny9164.github.io/categories/%ED%95%9C%EA%B5%AD%EC%96%B4/%ED%95%99%EC%8A%B5/JAVA/">JAVA</category>
+      
+      
+      <category domain="https://bny9164.github.io/tags/invalidboundstatement/">invalidboundstatement</category>
+      
+      <category domain="https://bny9164.github.io/tags/myBatis/">myBatis</category>
+      
+      <category domain="https://bny9164.github.io/tags/mybatis-error/">mybatis error</category>
+      
+      
+      <comments>https://bny9164.github.io/2021/10/28/2021-10-20-ko-invalid-bound-statement/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>AWSとは?</title>
